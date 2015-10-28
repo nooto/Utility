@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2493AA11BCDF24B005207FA /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AA01BCDF24B005207FA /* UIView+Frame.m */; settings = {ASSET_TAGS = (); }; };
-		E2493AB21BCDF29D005207FA /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AA41BCDF29D005207FA /* MJConst.m */; settings = {ASSET_TAGS = (); }; };
-		E2493AB31BCDF29D005207FA /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AA71BCDF29D005207FA /* MJFoundation.m */; settings = {ASSET_TAGS = (); }; };
-		E2493AB41BCDF29D005207FA /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AA91BCDF29D005207FA /* MJIvar.m */; settings = {ASSET_TAGS = (); }; };
-		E2493AB51BCDF29D005207FA /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AAB1BCDF29D005207FA /* MJType.m */; settings = {ASSET_TAGS = (); }; };
-		E2493AB61BCDF29D005207FA /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AAD1BCDF29D005207FA /* NSObject+MJCoding.m */; settings = {ASSET_TAGS = (); }; };
-		E2493AB71BCDF29D005207FA /* NSObject+MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AAF1BCDF29D005207FA /* NSObject+MJIvar.m */; settings = {ASSET_TAGS = (); }; };
-		E2493AB81BCDF29D005207FA /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AB11BCDF29D005207FA /* NSObject+MJKeyValue.m */; settings = {ASSET_TAGS = (); }; };
-		E2493ABB1BCDF325005207FA /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493ABA1BCDF325005207FA /* Utility.m */; settings = {ASSET_TAGS = (); }; };
-		E2493ABF1BCDF356005207FA /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493ABE1BCDF356005207FA /* SFHFKeychainUtils.m */; settings = {ASSET_TAGS = (); }; };
+		E24796021BD9E8760040D410 /* EHSysProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E24795FF1BD9E8760040D410 /* EHSysProperty.m */; };
+		E24796031BD9E8760040D410 /* EHSysScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E24796011BD9E8760040D410 /* EHSysScreen.m */; };
+		E2493AA11BCDF24B005207FA /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AA01BCDF24B005207FA /* UIView+Frame.m */; };
+		E2493AB21BCDF29D005207FA /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AA41BCDF29D005207FA /* MJConst.m */; };
+		E2493AB31BCDF29D005207FA /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AA71BCDF29D005207FA /* MJFoundation.m */; };
+		E2493AB41BCDF29D005207FA /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AA91BCDF29D005207FA /* MJIvar.m */; };
+		E2493AB51BCDF29D005207FA /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AAB1BCDF29D005207FA /* MJType.m */; };
+		E2493AB61BCDF29D005207FA /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AAD1BCDF29D005207FA /* NSObject+MJCoding.m */; };
+		E2493AB71BCDF29D005207FA /* NSObject+MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AAF1BCDF29D005207FA /* NSObject+MJIvar.m */; };
+		E2493AB81BCDF29D005207FA /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493AB11BCDF29D005207FA /* NSObject+MJKeyValue.m */; };
+		E2493ABB1BCDF325005207FA /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493ABA1BCDF325005207FA /* Utility.m */; };
+		E2493ABF1BCDF356005207FA /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2493ABE1BCDF356005207FA /* SFHFKeychainUtils.m */; };
 		E2A36A321BCD2EF000DC7259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A311BCD2EF000DC7259 /* main.m */; };
 		E2A36A351BCD2EF000DC7259 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A341BCD2EF000DC7259 /* AppDelegate.m */; };
 		E2A36A381BCD2EF000DC7259 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A371BCD2EF000DC7259 /* ViewController.m */; };
@@ -25,16 +27,16 @@
 		E2A36A401BCD2EF000DC7259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A36A3E1BCD2EF000DC7259 /* LaunchScreen.storyboard */; };
 		E2A36A4B1BCD2EF000DC7259 /* UtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A4A1BCD2EF000DC7259 /* UtilityTests.m */; };
 		E2A36A561BCD2EF000DC7259 /* UtilityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A551BCD2EF000DC7259 /* UtilityUITests.m */; };
-		E2A36A681BCD2F9B00DC7259 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A671BCD2F9B00DC7259 /* NSDate+Category.m */; settings = {ASSET_TAGS = (); }; };
-		E2A36A6B1BCD300B00DC7259 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A6A1BCD300B00DC7259 /* NSDateFormatter+Category.m */; settings = {ASSET_TAGS = (); }; };
-		E2A36A6E1BCD30F500DC7259 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A6D1BCD30F500DC7259 /* UIImage+Category.m */; settings = {ASSET_TAGS = (); }; };
-		E2A36A7F1BCD32D300DC7259 /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A701BCD32D300DC7259 /* NSDictionary+Category.m */; settings = {ASSET_TAGS = (); }; };
-		E2A36A811BCD32D300DC7259 /* NSString+HCTAvailableString.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A741BCD32D300DC7259 /* NSString+HCTAvailableString.m */; settings = {ASSET_TAGS = (); }; };
-		E2A36A821BCD32D300DC7259 /* NSString+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A761BCD32D300DC7259 /* NSString+hex.m */; settings = {ASSET_TAGS = (); }; };
-		E2A36A831BCD32D300DC7259 /* NSString+XEP_0106.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A781BCD32D300DC7259 /* NSString+XEP_0106.m */; settings = {ASSET_TAGS = (); }; };
-		E2A36A841BCD32D300DC7259 /* NSTimer+HCTTimerHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A7A1BCD32D300DC7259 /* NSTimer+HCTTimerHelp.m */; settings = {ASSET_TAGS = (); }; };
-		E2A36A851BCD32D300DC7259 /* UILabel+AutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A7C1BCD32D300DC7259 /* UILabel+AutoSize.m */; settings = {ASSET_TAGS = (); }; };
-		E2A36A861BCD32D300DC7259 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A7E1BCD32D300DC7259 /* UITextField+Placeholder.m */; settings = {ASSET_TAGS = (); }; };
+		E2A36A681BCD2F9B00DC7259 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A671BCD2F9B00DC7259 /* NSDate+Category.m */; };
+		E2A36A6B1BCD300B00DC7259 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A6A1BCD300B00DC7259 /* NSDateFormatter+Category.m */; };
+		E2A36A6E1BCD30F500DC7259 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A6D1BCD30F500DC7259 /* UIImage+Category.m */; };
+		E2A36A7F1BCD32D300DC7259 /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A701BCD32D300DC7259 /* NSDictionary+Category.m */; };
+		E2A36A811BCD32D300DC7259 /* NSString+HCTAvailableString.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A741BCD32D300DC7259 /* NSString+HCTAvailableString.m */; };
+		E2A36A821BCD32D300DC7259 /* NSString+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A761BCD32D300DC7259 /* NSString+hex.m */; };
+		E2A36A831BCD32D300DC7259 /* NSString+XEP_0106.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A781BCD32D300DC7259 /* NSString+XEP_0106.m */; };
+		E2A36A841BCD32D300DC7259 /* NSTimer+HCTTimerHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A7A1BCD32D300DC7259 /* NSTimer+HCTTimerHelp.m */; };
+		E2A36A851BCD32D300DC7259 /* UILabel+AutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A7C1BCD32D300DC7259 /* UILabel+AutoSize.m */; };
+		E2A36A861BCD32D300DC7259 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A36A7E1BCD32D300DC7259 /* UITextField+Placeholder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E24795FE1BD9E8760040D410 /* EHSysProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHSysProperty.h; sourceTree = "<group>"; };
+		E24795FF1BD9E8760040D410 /* EHSysProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHSysProperty.m; sourceTree = "<group>"; };
+		E24796001BD9E8760040D410 /* EHSysScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHSysScreen.h; sourceTree = "<group>"; };
+		E24796011BD9E8760040D410 /* EHSysScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHSysScreen.m; sourceTree = "<group>"; };
 		E2493A9E1BCDE963005207FA /* UtilityHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilityHelper.h; sourceTree = "<group>"; };
 		E2493A9F1BCDF24B005207FA /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		E2493AA01BCDF24B005207FA /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
@@ -244,6 +250,10 @@
 				E2493AB91BCDF325005207FA /* Utility.h */,
 				E2493ABA1BCDF325005207FA /* Utility.m */,
 				E2493AC01BCDF3DF005207FA /* Macro.h */,
+				E24795FE1BD9E8760040D410 /* EHSysProperty.h */,
+				E24795FF1BD9E8760040D410 /* EHSysProperty.m */,
+				E24796001BD9E8760040D410 /* EHSysScreen.h */,
+				E24796011BD9E8760040D410 /* EHSysScreen.m */,
 				E2493ABC1BCDF356005207FA /* SFHFKeychainUtils */,
 				E2493AA21BCDF29D005207FA /* MJExtension */,
 				E2A36A651BCD2F9B00DC7259 /* categories */,
@@ -413,6 +423,7 @@
 				E2A36A831BCD32D300DC7259 /* NSString+XEP_0106.m in Sources */,
 				E2A36A681BCD2F9B00DC7259 /* NSDate+Category.m in Sources */,
 				E2A36A381BCD2EF000DC7259 /* ViewController.m in Sources */,
+				E24796021BD9E8760040D410 /* EHSysProperty.m in Sources */,
 				E2A36A6B1BCD300B00DC7259 /* NSDateFormatter+Category.m in Sources */,
 				E2493AB21BCDF29D005207FA /* MJConst.m in Sources */,
 				E2A36A811BCD32D300DC7259 /* NSString+HCTAvailableString.m in Sources */,
@@ -431,6 +442,7 @@
 				E2493AB61BCDF29D005207FA /* NSObject+MJCoding.m in Sources */,
 				E2493ABB1BCDF325005207FA /* Utility.m in Sources */,
 				E2A36A821BCD32D300DC7259 /* NSString+hex.m in Sources */,
+				E24796031BD9E8760040D410 /* EHSysScreen.m in Sources */,
 				E2A36A6E1BCD30F500DC7259 /* UIImage+Category.m in Sources */,
 				E2A36A841BCD32D300DC7259 /* NSTimer+HCTTimerHelp.m in Sources */,
 			);
